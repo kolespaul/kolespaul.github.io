@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolesnyk Pavlo CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();" class="lng-home">Main</a></li>
+                <li><a href="#about" onclick="toggleMenu();" class="lng-about">5 facts</a></li>
+                <li><a href="#services" onclick="toggleMenu();" class="lng-services">Services</a></li>
+                <li><a href="#project" onclick="toggleMenu();" class="lng-projects">Projects</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu();" class="lng-testimonials">References</a></li>
+                <li><a href="#contact" onclick="toggleMenu();" class="lng-contacts">Contacts</a></li>
+            </ul>
+            <!-- <div class="langSwitchEng"><a href="#eng"><img src="icons/eng.png" alt="eng">English</a></div>
+            <div class="langSwitchUkr"><a href="#ukr"><img src="icons/ukr.png" alt="ukr">Українська</a></div> -->
+            <select class="change-lang">
+                <option value="en"selected>EN</option>
+                <option value="ua">UA</option>
+            </select>
+            <div class="themeSwitch"></div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="logo">
+                    <a href="#banner">&lt;olesny&gt;</a>
+                </div>
+            </div>
+            <section class="banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="img/Kolesnyk_Pavlo.jpg" alt="Kolesnyk_Pavlo">
+                    </div>
+                    <h3 class="lng-name">Kolesnyk Pavlo</h3>
+                    <p class="lng-position">Front-end developer</p>
+                    <a href="cv/index.html" class="btn lng-download">Download my CV</a>
+                    <ul class="socialMedia">
+                        <li><a href="https://www.facebook.com/profile.php?id=100010686398758"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://instagram.com/koles.paul?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="about adjust" id="about">
+                <div class="title">
+                    <h2 class="lng-aboutMe">5 facts</h2>
+                    <p class="lng-aboutMeText">After reading this 5 short facts about me you get to know me well.</p>
+                </div>
+                <div class="content">
+                    <div class="textBox">
+                        <div class="containerCards">
+                            <div class="panel active" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 12%, rgba(255, 255, 255, 0) 50%), url('img/running.jpg');">
+                                <h2 class="lng-running">Running.</h2>
+                                <h3 class="lng-runningText">Over the last years I have been waking up at 05.30 in the morning, have ran 7 km and have done exercises every weekday. Regime and sport helps me to manage my life and go ahead.</h3>
+                            </div>
+                    
+                            <div class="panel"
+                                style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 10%, rgba(255, 255, 255, 0) 50%), url('img/studying.jpg');">
+                                <h2 class="lng-studing">Studing.</h2>
+                                <h3 class="lng-studingText">I try to learn at least 7 hours every weekday.</h3>
+                            </div>
+                    
+                            <div class="panel"
+                                style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(255, 255, 255, 0) 50%), url('img/alarmclock.jpg');">
+                                <h2 class="lng-discipline">Discipline.</h2>
+                                <h3 class="lng-disciplineText">Self discipline and self motivation is my stongest point. I am sure that thanks to these qualities, I can achieve anything I want.</h3>
+                            </div>
+                    
+                            <div class="panel"
+                                style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(255, 255, 255, 0) 50%), url('img/teaching.jpg');">
+                                <h2 class="lng-teaching">Teaching.</h2>
+                                <h3 class="lng-teachingText">The topic of my master's thesis was "Teaching Finance", also I trained trainees in Favbet and created a new department. After reaching the goal senior developer I plan to become a team lead.</h3>
+                            </div>
+                    
+                            <div class="panel"
+                                style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(255, 255, 255, 0) 50%), url('img/design.jpg');">
+                                <h2 class="lng-design">Design.</h2>
+                                <h3 class="lng-designText">UI/UX is is my hobby, not a professional goal, but understending of basics would help me in comunication with designers.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services adjust" id="services">
+                <div class="title">
+                    <h2 class="lng-technology">Technology stack</h2>
+                    <p class="lng-technologyText">This section presents a stack of technologies that I own and which I plan to master.</p>
+                </div>
+                <div class="cards_wrap">
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/internet.svg">
+                            <div class="card_name lng-cardName">Internet</div>
+                            <div class="real_name lng-realName">CS 50, Browser</div>
+                            <div class="card_text lng-cardText">I started my training with the course CS 50, where I learned basic internet and programming fundamentals. The next step was to learn how browsers work.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/uiux.svg">
+                            <div class="card_name lng-cardName2">UI/UX</div>
+                            <div class="real_name lng-realName2">Figma, Adobe XD, Photoshop</div>
+                            <div class="card_text lng-cardText2">I have had experience with applications such as Photoshop, Illustrator. So I quickly mastered Figma, Avocode and Adobe XD.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/html5.svg">
+                            <div class="card_name lng-cardName3">HTML</div>
+                            <div class="real_name lng-realName3">SEO basics</div>
+                            <div class="card_text lng-cardText3">The next step was to study HTML and reviewing the basics of SEO.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/css3.svg">
+                            <div class="card_name lng-cardName4">CSS</div>
+                            <div class="real_name lng-realName4">SCSS, Bootstrap, Responsive, BEM </div>
+                            <div class="card_text lng-cardText4">Studying the CSS I paid attention to flex box and grid. As well as responsive design and media queries. Also studied technologies such as SCSS, Bootstrap, BEM.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/javascript.svg">
+                            <div class="card_name lng-cardName5">JavaScript</div>
+                            <div class="real_name lng-realName5">ES6+</div>
+                            <div class="card_text lng-cardText5">JavaScript became the most capacious of all study items. DOM, Fetch API, Ajax, Hoisting, event bubbling, scope, prototype, strict and other basic but important elements.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/reactjs.svg">
+                            <div class="card_name lng-cardName6">React</div>
+                            <div class="real_name lng-realName6">Redux</div>
+                            <div class="card_text lng-cardText6">React was chosen first to study because I had a free course on it. I plan to learn Angular and Type Script in the near future.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/git.svg">
+                            <div class="card_name lng-cardName7">Git</div>
+                            <div class="real_name lng-realName7">Git Hub</div>
+                            <div class="card_text lng-cardText7">Also have an idea of ​​how the GitKraken works.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/add.svg">
+                            <div class="card_name lng-cardName8">Additionally</div>
+                            <div class="real_name lng-realName8">Gulp, NPM, Webpack</div>
+                            <div class="card_text lng-cardText8">To simplify my work, I use such additional technologies as Gulp, NPM, Webpack.</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/typescript_logo.svg">
+                            <div class="card_name">Type Script</div>
+                            <div class="real_name">basics</div>
+                            <div class="card_text card_text_future lng-cardText9">In progress...</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/angular.svg">
+                            <div class="card_name">Angular</div>
+                            <div class="real_name">RxJS</div>
+                            <div class="card_text card_text_future lng-cardText11">In progress...</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img src="icons/jest.svg">
+                            <div class="card_name">Jest</div>
+                            <div class="real_name">basics</div>
+                            <div class="card_text card_text_future lng-cardText10">In progress...</div>
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="card_inner">
+                            <img class="group_img" src="icons/Group.svg">
+                            <div class="card_name">NodeJS, GraphQL, MongoDB</div>
+                            <div class="real_name">Express JS</div>
+                            <div class="card_text card_text_future lng-cardText12">Curriculum for the future</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project adjust" id="project">
+                <div class="title">
+                    <h2 class="lng-projects2">Projects</h2>
+                    <p class="lng-projectsP">Here you can see my projects posted on Github.</p>
+                </div>
+                <div class="content">
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/color flipper-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/colorFlipper">Color flipper <br> <span>Button, array</span> </a>
+                            <!-- <h3 class="lng-projectsP1">Project 01</h3> -->
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/google maps API-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/googleMapsAPI">Google maps API <br> <span>API</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/countdown timer-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/countdownTimer">Countdown timer <br> <span>setInterval</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img//menu-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/menu">Menu <br> <span>Getting data, displaying items</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/questions-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/questions">Questions <br> <span>Drop-down box</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/number facts API-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/numberFactsAPI">Number facts API <br> <span>Fetch with XHR, Fetch API</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/video-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/video">Video <br> <span>Insert video</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/tabs-min.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://kolespaul.github.io/tabs">Tabs <br> <span>Responsive, tabs</span> </a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/Work_screen.png" alt="Work screen">
+                        </div>
+                        <div class="textBx">
+                            <a href="https://github.com/kolespaul">React <br> <span>React projects on Github</span> </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials adjust" id="testimonials">
+                <div class="title">
+                    <h2 class="lng-testimonials2">Testimonials</h2>
+                    <p class="lng-testimonialsP">What`s people say.</p>
+                </div>
+                <div class="content">
+                    <div class="testimonialsBx">
+                        <div class="imgBx">
+                            <img src="img/testimonials1.jpg" alt="">
+                        </div>
+                        <p class="lng-testimonialsBxP">Pavlo is a very creative person and a talented designer. It will definitely help him in any other work.</p>
+                        <h4 class="lng-testimonialsBxPH">Alexander<br><h5 class="lng-testimonialsBxPHS">Former colleague</h5></h4>
+                    </div>
+                    <div class="testimonialsBx">
+                        <div class="imgBx">
+                            <img src="img/testimonials2.jpg" alt="">
+                        </div>
+                        <p class="lng-testimonialsBxP2">I have always liked Pavlo's dedication and striving for new knowledge. I am sure that he will be able to achieve any goal thanks to these qualities.</p>
+                        <h4 class="lng-testimonialsBxPH2">Constantine<br><h5 class="lng-testimonialsBxPHS2">Former colleague</h5></span></h4>
+                    </div>
+                    <div class="testimonialsBx">
+                        <div class="imgBx">
+                            <img src="img/testimonials4.jpg" alt="">
+                        </div>
+                        <p class="lng-testimonialsBxP3">I was a trainee taught by Pavlo. He found the right approach to me and motivated me to develop further.</p>
+                        <h4 class="lng-testimonialsBxPH3">Alexander<br><h5 class="lng-testimonialsBxPHS3">Former trainee</h5></h4>
+                    </div>
+                    <div class="testimonialsBx">
+                        <div class="imgBx">
+                            <img src="img/testimonials5.jpg" alt="">
+                        </div>
+                        <p class="lng-testimonialsBxP4">I would like to highlight two of the most important qualities that I appreciated in Pavlo - discipline and responsibility.</p>
+                        <h4 class="lng-testimonialsBxPH4">Andriy<br><h5 class="lng-testimonialsBxPHS4">Former leader</h5></h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact adjust" id="contact">
+                <div class="title">
+                    <h2 class="lng-contactH">Let`s say Hi</h2>
+                    <p class="lng-contactP">You can see my contact details by clicking on the Download my CV button on main page or fill out the form below for feedback.</p>
+                </div>
+                <!-- <div class="contactForm">
+                    <div class="row">
+                        <input type="text" name="" placeholder="First Name">
+                        <input type="text" name="" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="" placeholder="Email">
+                        <input type="text" name="" placeholder="Mobile">
+                    </div>
+                    <div class="row2">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="row2">
+                        <input type="submit" value="Send">
+                    </div>
+                </div> -->
+                <form action="https://formsubmit.co/aa17a3730d5b1ba6f53f291e303ecad0" method="POST" class="contactForm">
+                    <div class="row">
+                        <input type="text" name="name" placeholder="First Name">
+                        <input type="text" name="surname" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="text" name="mobile" placeholder="Mobile">
+                    </div>
+                    <div class="row2">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="row2">
+                        <!-- <input type="submit" value="Send"> -->
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </section>
+            <div class="copyrights">
+                <p class="lng-copyrights">Copyrights &copy; 2021 Kolesnyk Pavlo. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/multilang.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
